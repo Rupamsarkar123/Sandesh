@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Roboto", "Arial", sans-serif; /* Ant Design uses system fonts, so you can use these or change as per your preference */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Consolas, "Courier New", monospace; /* Ant Design uses Monaco/Consolas for monospaced font */
+}

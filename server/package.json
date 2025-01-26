@@ -5,7 +5,8 @@
   "description": "bhejo sandhesh",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server/server.js"
+    "start": "npx nodemon server/server.js
+"
   },
   "author": "Rupam Sarkar",
   "license": "ISC",

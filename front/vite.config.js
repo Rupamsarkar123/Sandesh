@@ -35,6 +35,7 @@ export default defineConfig({
   server: {
     port: process.env.PORT || 5175,  // Use Render's PORT variable or fallback to 5175 locally
     host: '0.0.0.0',  // Allow connections from Render
+    allowedHosts: ['sandesh-1.onrender.com'],  // Add your Render domain here
     proxy: {
       "/api": {
         target: "http://localhost:5000", // Backend server

@@ -15,15 +15,17 @@ connectDB();
 const app = express();
 
 app.use(express.json()); // to accept json data
-
+//app.use(cors()); // changed
 app.use(
   cors({
-    origin: "http://localhost:5174",
+    origin: "http://localhost:5175/",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
   })
 ); // Enable CORS for all routes
-app.get("/", (req, res) => {
-  res.send("API is running successfully!");
-});
+// app.get("/", (req, res) => {
+//   res.send("API is running !");
+// });
 
 app.use("/api/user", userRoutes);
 
@@ -41,7 +43,7 @@ if (process.env.NODE_ENV === "production") {
   );
 } else {
   app.get("/", (req, res) => {
-    res.send("API is running..");
+    res.send("API is running succesfully..");
   });
 }
 
@@ -51,19 +53,19 @@ app.use(notFound);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
+const server = app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server is running on port ${PORT}!`);
+});
 
-const server = app.listen(
-  5000,
-  console.log(`server is running on port ${PORT}!`)
-);
+//const server = app.listen(console.log(`server is running on port ${PORT}!`));
 
 import { Server } from "socket.io";
 
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:5174",
-    credentials: true, // out commented
+    origin: "http://localhost:5175",
+    //credentials: true, // out commented
   },
 });
 

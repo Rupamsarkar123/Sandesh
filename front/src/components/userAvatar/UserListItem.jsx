@@ -4,7 +4,7 @@ import { ChatState } from "../../Context/ChatProvider";
 const { Text } = Typography;
 
 const UserListItem = ({ user, handleFunction }) => {
-  const { user: loggedInUser } = ChatState();
+  //const { user: loggedInUser } = ChatState();
 
   return (
     <Card

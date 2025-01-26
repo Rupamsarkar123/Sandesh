@@ -5,7 +5,8 @@
   "description": "bhejo sandhesh",
   "main": "server.js",
   "scripts": {
-    "start": "npx nodemon server/server.js"
+    "start": "npx nodemon server/server.js",
+    "postinstall": "npm install nodemon"
 
   },
   "author": "Rupam Sarkar",

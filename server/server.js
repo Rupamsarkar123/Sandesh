@@ -18,7 +18,7 @@ app.use(express.json()); // to accept json data
 //app.use(cors()); // changed
 app.use(
   cors({
-    origin: "http://localhost:5175/",
+     origin: "https://sandesh-1.onrender.com",  // Deployed frontend URL   // origin: "http://localhost:5175/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
@@ -66,7 +66,7 @@ import { Server } from "socket.io";
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "http://localhost:5175",
+    origin: "https://sandesh-1.onrender.com",   //origin: "http://localhost:5175",
     //credentials: true, // out commented
   },
 });

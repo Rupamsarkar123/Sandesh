@@ -57,7 +57,7 @@ const MyChats = ({ fetchAgain }) => {
         }}
       >
         <Title level={3} style={{ margin: 0 }}>
-          My Chats
+           Chats
         </Title>
 
         <GroupChatModal>

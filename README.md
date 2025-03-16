@@ -22,6 +22,7 @@ Sandesh is a real-time chat application built using modern web technologies. It 
 - Real-time messaging with Socket.io
 - User authentication
 - Responsive UI
+- Single and group chat functionality
 - Scalable backend architecture
 
 ## Setup Instructions

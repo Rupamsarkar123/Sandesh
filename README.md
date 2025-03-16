@@ -1,4 +1,4 @@
-![creategroup](https://github.com/user-attachments/assets/401c6674-3229-4f64-a561-f5240d5ede00)# Sandesh
+
 
 Sandesh is a real-time chat application built using modern web technologies. It features instant messaging, user authentication, and seamless real-time communication.
 

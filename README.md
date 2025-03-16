@@ -60,7 +60,7 @@ Sandesh is a real-time chat application built using modern web technologies. It 
 )
 ![Screenshot 2](![Screenshot (648)](https://github.com/user-attachments/assets/3fb1eb79-61f1-4e52-a1dc-f6405081ff46)
 )
-![Screenshot 3](![Screenshot (653)](![Screenshot (658)](https://github.com/user-attachments/assets/0a501df2-fd61-486d-9493-a34940530de0)
+![Screenshot 3](![Screenshot (658)](https://github.com/user-attachments/assets/0a501df2-fd61-486d-9493-a34940530de0)
 
 )
 ![Screenshot 4](![Screenshot (654)](https://github.com/user-attachments/assets/8d623a79-5da1-4946-85f1-69dcad10ad73)
